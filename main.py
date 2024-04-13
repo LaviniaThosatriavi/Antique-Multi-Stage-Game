@@ -8,7 +8,7 @@ import time
 # variable to store the maps which have been solved
 solved = []
 
-with open("texts", 'r') as f:
+with open("Source Files/texts", 'r') as f:
     for line_number, line in enumerate(f):
         if line_number <= 10:
             print(line, end = '')
