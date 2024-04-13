@@ -3,7 +3,7 @@ import time
 # py file to animate the animations
 
 def animate_obstacle():
-    with open ("animations", 'r') as sourceFile:
+    with open ("Source Files/animations", 'r') as sourceFile:
         for line_number, line in enumerate(sourceFile, start = 1):
             if line_number <= 11:
                 for element in line:
@@ -20,7 +20,7 @@ def animate_obstacle():
             time.sleep(0.4)
 
 def animate_wall():
-    with open ("animations", 'r') as sourceFile:
+    with open ("Source Files/animations", 'r') as sourceFile:
         for line_number, line in enumerate(sourceFile, start = 1):
             if line_number < 13:
                 continue
@@ -40,7 +40,7 @@ def animate_wall():
                 break
 
 def animate_customer():
-    with open ("animations", 'r') as sourceFile:
+    with open ("Source Files/animations", 'r') as sourceFile:
         for line_number, line in enumerate(sourceFile, start = 1):
             if line_number < 25:
                 continue
@@ -56,7 +56,7 @@ def animate_customer():
                 break
 
 def animate_dumplings():
-    with open ("animations", 'r') as sourceFile:
+    with open ("Source Files/animations", 'r') as sourceFile:
         for line_number, line in enumerate(sourceFile, start = 1):
             if line_number < 29:
                 continue
@@ -74,7 +74,7 @@ def animate_dumplings():
                 break
 
 def animate_money():
-    with open("animations", 'r') as sourceFile:
+    with open("Source Files/animations", 'r') as sourceFile:
         for line_number, line in enumerate(sourceFile, start = 1):
             if line_number < 37:
                 continue
@@ -88,7 +88,7 @@ def animate_money():
                 break
 
 def animate_vase():
-    with open("animations", 'r') as sourceFile:
+    with open("Source Files/animations", 'r') as sourceFile:
         for line_number, line in enumerate(sourceFile, start = 1):
             if line_number < 58:
                 continue
