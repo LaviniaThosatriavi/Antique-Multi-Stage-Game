@@ -5,7 +5,7 @@ import money
 import time
 import random
 def load_maze():
-    with open('4.maze','r') as mazeFile:
+    with open('Source Files/4.maze','r') as mazeFile:
         for line in mazeFile:
             maze_board.append(list(line))
 
