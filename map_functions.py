@@ -1,7 +1,7 @@
 import animate_functions
 
 def load_map(choice):
-    with open (f"{choice}.map", 'r') as mapFile:
+    with open (f"Source Files/{choice}.map", 'r') as mapFile:
         temp = mapFile.read().splitlines()
     map_board = []
     for line in temp:
